@@ -21,7 +21,7 @@ spec:
         cpu: "30m" 
         memory: "150Mi" 
       default:
-        cpu: "1m" 
+        cpu: "1" 
         memory: "512Mi" 
       defaultRequest:
         cpu: "60m" 
