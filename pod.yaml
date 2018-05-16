@@ -6,6 +6,8 @@ metadata:
 spec:
   containers:
   - image: "docker.io/deshuai/hello-pod:latest"
+    tty: true
+    stdin: true
     imagePullPolicy: IfNotPresent
     name: hello-pod
     ports:
